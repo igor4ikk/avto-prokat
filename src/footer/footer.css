@@ -1,0 +1,52 @@
+.footer{
+    background-color: #14263D;
+    display: flex;
+    justify-content: center;
+   color: white;
+}
+.foot-box{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+  
+}
+.footlogo{
+    padding: 10px;
+    /* background-color: olivedrab; */
+    width: 25%;
+}
+.datacreate{
+    font-size: 16px;
+    font-family: 'Lato Regular',sans-serif;
+}
+.footitem{
+    text-transform: uppercase;
+    font-family: 'Lato Regular',sans-serif;
+    list-style: none;
+   
+}
+.footitem > li{
+    line-height: 1.8;
+}
+.but-reserv{
+    background-color: #F5C53D;
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    border: #AD7FA8 solid 1px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.but-reserv > a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    font-size: 28px;
+    color: white;
+}
+.but-reserv:hover{
+    background-color: #14263D;
+    border: #AD7FA8 solid 1px;
+}

@@ -1,0 +1,44 @@
+.part-wrap{
+    justify-content: center; 
+    display: flex;
+}
+.wrapper{
+    display: flex;
+    background-color: blue;
+}
+.wrapperLogo{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.wrapperImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+}
+.wrapperText{
+ padding: 10px;
+ font-size: 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapperLink{
+    text-decoration: none;
+}
+.wrapperLink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wrapperStatus{
+    color: black;
+}
+.partners{
+    margin-top: 60px;
+    font-size: 40px;
+    text-align: center;
+    color: #F6B900;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
